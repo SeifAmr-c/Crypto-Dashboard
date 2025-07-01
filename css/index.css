@@ -16,7 +16,7 @@
   section {
     background-color: #2e183a;
     height: auto;
-    width: auto;
+    width: 95%;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -27,6 +27,7 @@
   
   .container {
     width: 100%;
+    overflow-x: auto;
   }
   
   #search {
@@ -36,6 +37,8 @@
   }
 table{
   width: 100%;
+  min-width: 600px; 
+
 }
 thead tr th {
   padding: 4px;
@@ -49,4 +52,14 @@ tbody td {
     padding: 6px;
     color: #f1b5ff; 
 
+}
+@media (max-width: 600px) {
+  thead tr th, tbody td {
+    font-size: 12px;
+    padding: 4px;
+  }
+
+  #search {
+    font-size: 14px;
+  }
 }
