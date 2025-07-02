@@ -32,6 +32,7 @@
   form{
     width: 100%;
     display: block;
+    min-width: 600px;
   }
   
   #search {
