@@ -29,6 +29,10 @@
     width: 100%;
     overflow-x: auto;
   }
+  form{
+    width: 100%;
+    display: block;
+  }
   
   #search {
     width: 100%;
@@ -61,6 +65,5 @@ tbody td {
 
   #search {
     font-size: 14px;
-    width: 100%;
   }
 }
